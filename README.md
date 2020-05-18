@@ -4,6 +4,10 @@
 Proyecto de automatización con SerenityBDD, screenplay y cucumber. Este proyecto muestra de forma sencilla como podemos
 realizar una prueba en la cual debemos alternar entre una aplicación Web y una aplicación móvil.
 
+La aplicación móvil se puede descargar en :
+
+https://play.google.com/store/apps/details?id=com.miui.calculator&hl=es_CO 
+
 ## Detalles generales de la implementación
 
 Los tests usan tareas (tasks), interacciones (interactions), preguntas (questions), elementos de páginas (userinterface).
@@ -49,6 +53,10 @@ Use el siguiente comando
 
 Automation project with serenity BDD, screenplay and cucumber. This project shows in a simple way how we can carry out a 
 test in which we must alternate between a Web application and a mobile application.
+
+The mobile application can be downloaded at:
+
+https://play.google.com/store/apps/details?id=com.miui.calculator&hl=es_CO
 
 ## General details of the implementation
 
