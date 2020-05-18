@@ -24,7 +24,7 @@ public class ObtenerNumerosAleatoreos implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Open.browserOn(googlePage),
-                Enter.theValue("numeros aleatorios")
+                Enter.theValue("números aleatorios")
                         .into(CAMPO_DE_BUSQUEDA)
                         .thenHit(ENTER),
                 Enter.theValue("0").into(NUMERO_MINIMO),
