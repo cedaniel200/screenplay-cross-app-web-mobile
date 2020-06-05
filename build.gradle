@@ -23,8 +23,6 @@ apply plugin: 'net.serenity-bdd.aggregator'
 group 'org.example'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
-
 repositories {
     mavenCentral()
     mavenLocal()
@@ -45,7 +43,7 @@ dependencies {
 }
 
 tasks.withType(Test){
-    systemProperties = System.properties
+    systemProperties = System.properties as Map<String, ?>
     maxParallelForks = Runtime.runtime.availableProcessors()
 }
 
